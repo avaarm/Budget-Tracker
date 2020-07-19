@@ -1,6 +1,11 @@
 const router = require("express").Router();
 const Transaction = require("../models/transaction.js");
 
+router.get("/", function(req, res) {
+  res.json(path.join(__dirname, "../public/index.html"));
+})
+
+
 router.post("/api/transaction", ({body}, res) => {
   Transaction.create(body)
     .then(dbTransaction => {
@@ -10,6 +15,8 @@ router.post("/api/transaction", ({body}, res) => {
       res.status(404).json(err);
     });
 });
+
+
 
 router.post("/api/transaction/bulk", ({body}, res) => {
   Transaction.insertMany(body)
