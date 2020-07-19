@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const Schema = mongoose.Schema;
 
 const transactionSchema = new Schema(
@@ -21,5 +20,8 @@ const transactionSchema = new Schema(
 );
 
 const Transaction = mongoose.model("Transaction", transactionSchema);
+
+// export const dropdb = async () => mongoose.connection.db.dropDatabase();
+
 
 module.exports = Transaction;

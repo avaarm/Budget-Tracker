@@ -1,11 +1,16 @@
 body {
   font-size: 120%;
   font-family: Arial;
+  background-image: url(images/wave.svg);
+  background-repeat: no-repeat;
 }
 
 button, input {
   font-size: 100%;
   font-family: Arial;
+  background-color: #ff9f68;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 table {
@@ -13,13 +18,13 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #f85959;
   text-align: left;
-  padding: 8px;
+  padding: 6px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #f85959;
 }
 
 .error {
@@ -34,7 +39,8 @@ tr:nth-child(even) {
 
 .total {
   font-size: 150%;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  padding-bottom: 20px;
 }
 
 .form {

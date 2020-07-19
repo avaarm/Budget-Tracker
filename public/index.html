@@ -9,13 +9,13 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
-
+  <link rel="manifest" href="./manifest.webmanifest">
   <title>Budget Tracker</title>
 </head>
 <body>
   <div class="wrapper">
     <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+      <div class="total">Current Amount: $<span id="total">0</span></div>
     </div>
 
     <div class="form">
@@ -42,6 +42,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="db.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
