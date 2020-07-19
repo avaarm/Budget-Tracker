@@ -48,7 +48,7 @@ need to be made in order for it to make it a progressive web applciation.Through
 
 ## Demonstration 
 
-![Application Demo](./public/assets/video.gif)
+<!-- ![Application Demo](./public/assets/video.gif) -->
 
 
 ## Installation
