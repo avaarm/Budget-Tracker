@@ -1,6 +1,6 @@
 {
-    "short_name": "Budget Tracker",
     "name": "Budget Tracker",
+    "short_name": "Budget Tracker",
     "icons": [
       {
         "src": "/icons/icon-192x192.png",
@@ -13,7 +13,7 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/",
+    "start_url": "https://polar-ocean-72761.herokuapp.com/",
     "background_color": "#808080",
     "display": "standalone",
     "theme_color": "#808080"
