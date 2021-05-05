@@ -106,4 +106,4 @@ IndexedDB is a low-level API for client-side storage of significant amounts of s
 
 If you have any questions, please contact me on:
 GitHub at [avaarm](https://github.com/avaarm)
-Email at [Armenuhi](mailto:avaarm95@mail.com)
+Email at [Emma](mailto:avaarm95@mail.com)
