@@ -8,7 +8,7 @@
 
 ## Description 
 
-Budget Tracker is a full-stack application that allows the user to add and subtract funds onile or offline. 
+Budget Tracker is a progressive web application that allows the user to add and subtract funds onile or offline. 
 Additionally, the application allows the user to visualize a graph of their total spendings in a day over a period of time. 
 
 This project enabled me to gain a better understadning of looking at pre-existing code and analyzing where the connections
