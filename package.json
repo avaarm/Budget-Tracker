@@ -24,6 +24,7 @@
     "lite-server": "^2.5.4",
     "minimist": "^1.2.5",
     "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "node": "^16.0.0"
   }
 }
