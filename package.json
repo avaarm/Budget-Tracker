@@ -22,7 +22,7 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.5.4",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
     "node": "^16.0.0"
